@@ -12,3 +12,8 @@ We take user inputs which are
 - output (output json-file name)
 
 The script searches the keyword, stores the related urls and fianlly writes the extarcted information on a json file.
+
+
+Task 2 - PDF content extractor
+
+Work is going on
