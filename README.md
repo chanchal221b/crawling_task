@@ -31,8 +31,15 @@ I faced alot of issues while performing this task. It involved dealing with alot
 
 Another issue was related to the language of the pdf files. Since it was Marathi some language packages were required to be downloaded for the tesseract library to recognize the text and extract it.
 
-Final issue was related to the size of the files.
+Final issue was related to the size of the files and runtime issues.
 
-Currently I have written a script which takes in the pdf url and extracts text from a limited number of pages from the pdf. Then it stores the content in the prescribed format in a json file.
+The script 'pdf_extract.py' traverses through the csv file for each URL.
+
+Text from each pdf is extracted using OCR.
+
+The content from each pdf is stored in the json file.
 
 I have uploaded a sample_output.txt file to show the OCR result for single pdf.
+
+Installlations required - 
+poppler, tesseract-ocr, pytesseract, pdf2image
